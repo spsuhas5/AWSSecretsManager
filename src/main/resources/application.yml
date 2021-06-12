@@ -1,4 +1,4 @@
 twilio:
-  account_sid: AC01cf3bbfe7509b6f1e0db14de8052865
-  auth_token: 6b49a69287211138f4151854a45b2e96
-  trial_number: (210) 941-2174
+  account_sid:
+  auth_token:
+  trial_number:
