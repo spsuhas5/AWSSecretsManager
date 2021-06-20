@@ -76,7 +76,9 @@ public class Sample {
 
 //        subStrComp();
 
-        isAnagram("anagramm", "marganaa");
+//        isAnagram("anagramm", "marganaa");
+
+        System.out.println("solveGoneBananas: "+solveGoneBananas(19));
     }
 
 
@@ -177,5 +179,24 @@ public class Sample {
         System.out.println(Arrays.toString(in));
         System.out.println("no of swaps to sort the array: "+count);
         return count;
+    }
+
+    private static String solveGoneBananas(int N) {
+        String flag = "No";
+
+        if (N <= 3) {
+            return flag;
+        } else {
+            for(int i=2; i<1000000; i++) {
+                if(N!=i && N%i == 0){
+                    flag = "Yes";
+                    break;
+                } else ::
+                    continue;
+                }
+            }
+            return flag;
+        }
+
     }
 }
